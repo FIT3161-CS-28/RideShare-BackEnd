@@ -1,7 +1,7 @@
 ### API Documentation
 
 ## Endpoints
-- test1
+- [Test1](## GET test1/user)
 - test2
 
 
