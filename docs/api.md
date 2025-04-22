@@ -18,3 +18,4 @@ inputs: your mum\n
 outputs: your mums house\n
 
 ### Example Usage
+yes
