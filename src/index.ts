@@ -1,8 +1,9 @@
 import express from 'express';
 const app = express();
 
-// Import db.js
+// Import db
 import localDB from './db.js';
+process.env.DB_HOST = process.env.DB_HOST || './db.sqlite3';
 const db = new localDB(process.env.DB_HOST);
 
 
