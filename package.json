@@ -1,0 +1,22 @@
+{
+  "name": "rideshare-backend",
+  "version": "1.0.0",
+  "description": "Backend for cs 28 fyp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FIT3161-CS-28/RideShare-BackEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FIT3161-CS-28/RideShare-BackEnd/issues"
+  },
+  "homepage": "https://github.com/FIT3161-CS-28/RideShare-BackEnd#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
