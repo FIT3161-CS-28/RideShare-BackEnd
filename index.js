@@ -1,14 +1,29 @@
-const express = require('express')
-const app = express()
-const port = 9720
+import express from 'express';
+const app = express();
 
-console.log("Backend starting...")
+// Import db.js
+import localDB from './db.js';
+const db = new localDB(process.env.DB_HOST);
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+console.log("Backend starting...");
+
+app.post('/create', (req, res) => {
+    res.send('create response');
+  })
+
+app.get('/login', (req, res) => {
+    res.send('login response');
+
+  })
+
+// Unknown route
+app.use(function(req, res, next){
+    res.status(404).send('Page not found');
+  });
+
+
+app.listen(process.env.port, () => {
+  console.log(`Example app listening on port ${process.env.port}`)
 })
 
