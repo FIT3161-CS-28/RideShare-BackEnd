@@ -1,4 +1,9 @@
-# Ride-Share App: Backend Documentation
+---
+title: "Home"
+---
+
+# Title Override
+
 ## Contributors
-Ben Saunders: BenSaunders1
-William Condick: Torca2001
+Ben Saunders: BenSaunders1\n
+William Condick: Torca2001\n
