@@ -1,5 +1,5 @@
 ---
-title: "API Docs"
+title: "API Documentation"
 ---
 ## Endpoints
 - [Test1](#test1)
