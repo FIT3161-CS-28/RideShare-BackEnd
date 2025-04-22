@@ -1,5 +1,6 @@
-# API Documentation
-
+---
+title: "API Docs"
+---
 ## Endpoints
 - [Test1](#test1)
 - test2
