@@ -5,5 +5,5 @@ title: "Home"
 # Title Override
 
 ## Contributors
-Ben Saunders: BenSaunders1\n
-William Condick: Torca2001\n
+Ben Saunders: BenSaunders1 \
+William Condick: Torca2001
